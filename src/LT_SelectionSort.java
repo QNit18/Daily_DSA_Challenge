@@ -10,10 +10,10 @@ public class LT_SelectionSort {
                     minIndex = j;
                 }
             }
-            for (int j = 0; j < a.length; j++) {
-                System.out.print(a[j] + " ");
-            }
-            System.out.println();
+//            for (int j = 0; j < a.length; j++) {
+//                System.out.print(a[j] + " ");
+//            }
+//            System.out.println();
             int temp = a[i];
             a[i] = a[minIndex];
             a[minIndex] = temp;
